@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Introduction to the Internet</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+  <link rel="icon" href="cybersecurity_images/firewall.jpeg">
+</head>
+
+<body>
+  <div id="mySidenav" class="sidenav">
+    <div class="dropdown">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown"
+        aria-haspopup="true" aria-expanded="false">
+        The Internet
+      </button>
+      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+        <a class="dropdown-item" href="internet.html#internet" onclick="closeNav()">Internet</a>
+        <a class="dropdown-item" href="internet.html#storage" onclick="closeNav()">Storage Systems</a>
+        <a class="dropdown-item" href="internet.html#Binary" onclick="closeNav()">Binary</a>
+        <a class="dropdown-item" href="internet.html#decimal" onclick="closeNav()">Decimal</a>
+        <a class="dropdown-item" href="internet.html#ethernet" onclick="closeNav()">Ethernet</a>
+        <a class="dropdown-item" href="internet.html#bandwidth" onclick="closeNav()">Bandwidth</a>
+        <a class="dropdown-item" href="internet.html#digital-analogue" onclick="closeNav()">Digital & Analogue</a>
+        <a class="dropdown-item" href="internet.html#ip" onclick="closeNav()">IP</a>
+        <a class="dropdown-item" href="internet.html#DNS" onclick="closeNav()">DNS</a>
+      </div>
+    </div>
+    <div class="dropdown">
+      <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown"
+        aria-expanded="false">
+        Packets & Routing
+      </button>
+      <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+        <li><a class="dropdown-item" href="packets.html#protocol" onclick="closeNav()">Protocols</a></li>
+        <li><a class="dropdown-item" href="packets.html#packet" onclick="closeNav()">Packets</a></li>
+        <li><a class="dropdown-item" href="packets.html#router" onclick="closeNav()">Routers</a></li>
+        <li><a class="dropdown-item" href="packets.html#fault-tolerance" onclick="closeNav()">Fault tolerance</a></li>
+        <li><a class="dropdown-item" href="packets.html#tcp" onclick="closeNav()">TCP</a></li>
+        <li><a class="dropdown-item" href="packets.html#scaleable" onclick="closeNav()">Scaleable</a></li>
+      </ul>
+    </div>
+    <div class="dropdown">
+      <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown"
+        aria-haspopup="true" aria-expanded="false">
+        Web Browsing
+      </button>
+      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+        <a class="dropdown-item" href="web-browsing.html#browser" onclick="closeNav()">Browser</a>
+        <a class="dropdown-item" href="web-browsing.html#server" onclick="closeNav()">Web Server</a>
+        <a class="dropdown-item" href="web-browsing.html#http" onclick="closeNav()">HTTP</a>
+        <a class="dropdown-item" href="web-browsing.html#https" onclick="closeNav()">HTTPS</a>
+        <a class="dropdown-item" href="web-browsing.html#requests" onclick="closeNav()">GET and POST</a>
+        <a class="dropdown-item" href="web-browsing.html#html" onclick="closeNav()">HTML</a>
+      </div>
+    </div>
+    <div class="dropdown">
+      <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown"
+        aria-haspopup="true" aria-expanded="false">
+        CyberSecurity
+      </button>
+      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+        <a class="dropdown-item" href="cybersecurity.html#virus" onclick="closeNav()">Computer Virus</a>
+        <a class="dropdown-item" href="cybersecurity.html#phish" onclick="closeNav()">Phishing Scam</a>
+        <a class="dropdown-item" href="cybersecurity.html#ddos" onclick="closeNav()">DDos</a>
+        <a class="dropdown-item" href="cybersecurity.html#antivirus" onclick="closeNav()">Antivirus Software</a>
+        <a class="dropdown-item" href="cybersecurity.html#firewall" onclick="closeNav()">Firewall</a>
+      </div>
+    </div>
+  </div>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+      <a class="navbar-brand" href="home.html">Edward Liu</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="internet.html">The Internet</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="packets.html">Packets and Routing</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="web-browsing.html">Web Browsing</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="cybersecurity.html">CyberSecurity</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="history.html">History of the Internet</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="heading-security">
+    <h1>Cyber Security</h1>
+  </div>
+  <div class="main-info container" style="background-color:rgb(255, 255, 255)">
+    <div class="subpoints">
+      <div class="row">
+        <div class="col-lg-6">
+          <img class="image" src="cybersecurity_images/virus.jpeg" alt="virus">
+        </div>
+        <div class="col-lg-6">
+          <h1 id="virus">Computer Virus</h1>
+          <p>A computer virus is a type of program that replicates itself by modifying your computer programs and
+            inserts it's own code. This can be harmful to a person's computer, being able to take your personal
+            information.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="main-info container" style="background-color:rgb(245, 245, 245)">
+    <div class="subpoints">
+      <div class="row">
+        <div class="col-lg-6">
+          <h1 id="phish">Phishing</h1>
+          <p>Phishing is when an attacker pretends to be a trusted entity, and steals precious data. Many people
+            have been attacked by phishing scams in the past, but many people know about this.</p>
+        </div>
+        <div class="col-lg-6">
+          <img class="image" src="cybersecurity_images/phishing.jpeg" alt="phishing">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="main-info container" style="background-color:rgb(235, 235, 235)">
+    <div class="subpoints">
+      <div class="row">
+        <div class="col-lg-6">
+          <img class="image" src="cybersecurity_images/ddos.png" alt="ddos">
+        </div>
+        <div class="col-lg-6">
+          <h1 id="ddos">DDos</h1>
+          <p>DDos is a brute force attack, and uses multiple online devices, a botnet to overwhelm a website with
+            fake requests. This can lead to files and information not processing due to fake requests.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="main-info container" style="background-color:rgb(225, 225, 225)">
+    <div class="subpoints">
+      <div class="row">
+        <div class="col-lg-6">
+          <h1 id="antivirus">Antivirus software</h1>
+          <p>Antivirus software prevents causes of any of the attacks shown above. It is a software that protects
+            your computer from any program that may damage your computer.</p>
+        </div>
+        <div class="col-lg-6">
+          <img class="image" src="cybersecurity_images/antivirus.jpeg" alt="antivirus">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="main-info container" style="background-color:rgb(215, 215, 215)">
+    <div class="subpoints">
+      <div class="row">
+        <div class="col-lg-6">
+          <img class="image" src="cybersecurity_images/firewall.jpeg" alt="firewall">
+        </div>
+        <div class="col-lg-6">
+          <h1 id="firewall">Firewall</h1>
+          <p>The firewall monitors and controls network traffic based on its security rules. It establishes barriers
+            from trusted and untrusted networks.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+<script src="script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+
+</html>

@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Introduction to the Internet</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="internet.css">
+  <link rel="icon" href="cybersecurity_images/firewall.jpeg">
+</head>
+
+<body>
+  <div id="mySidenav" class="sidenav">
+    <div class="dropdown">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown"
+        aria-haspopup="true" aria-expanded="false">
+        The Internet
+      </button>
+      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+        <a class="dropdown-item" href="internet.html#internet" onclick="closeNav()">Internet</a>
+        <a class="dropdown-item" href="internet.html#storage" onclick="closeNav()">Storage Systems</a>
+        <a class="dropdown-item" href="internet.html#Binary" onclick="closeNav()">Binary</a>
+        <a class="dropdown-item" href="internet.html#decimal" onclick="closeNav()">Decimal</a>
+        <a class="dropdown-item" href="internet.html#ethernet" onclick="closeNav()">Ethernet</a>
+        <a class="dropdown-item" href="internet.html#bandwidth" onclick="closeNav()">Bandwidth</a>
+        <a class="dropdown-item" href="internet.html#digital-analogue" onclick="closeNav()">Digital & Analogue</a>
+        <a class="dropdown-item" href="internet.html#ip" onclick="closeNav()">IP</a>
+        <a class="dropdown-item" href="internet.html#DNS" onclick="closeNav()">DNS</a>
+      </div>
+    </div>
+    <div class="dropdown">
+      <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown"
+        aria-expanded="false">
+        Packets & Routing
+      </button>
+      <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+        <li><a class="dropdown-item" href="packets.html#protocol" onclick="closeNav()">Protocols</a></li>
+        <li><a class="dropdown-item" href="packets.html#packet" onclick="closeNav()">Packets</a></li>
+        <li><a class="dropdown-item" href="packets.html#router" onclick="closeNav()">Routers</a></li>
+        <li><a class="dropdown-item" href="packets.html#fault-tolerance" onclick="closeNav()">Fault tolerance</a></li>
+        <li><a class="dropdown-item" href="packets.html#tcp" onclick="closeNav()">TCP</a></li>
+        <li><a class="dropdown-item" href="packets.html#scaleable" onclick="closeNav()">Scaleable</a></li>
+      </ul>
+    </div>
+    <div class="dropdown">
+      <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown"
+        aria-haspopup="true" aria-expanded="false">
+        Web Browsing
+      </button>
+      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+        <a class="dropdown-item" href="web-browsing.html#browser" onclick="closeNav()">Browser</a>
+        <a class="dropdown-item" href="web-browsing.html#server" onclick="closeNav()">Web Server</a>
+        <a class="dropdown-item" href="web-browsing.html#http" onclick="closeNav()">HTTP</a>
+        <a class="dropdown-item" href="web-browsing.html#https" onclick="closeNav()">HTTPS</a>
+        <a class="dropdown-item" href="web-browsing.html#requests" onclick="closeNav()">GET and POST</a>
+        <a class="dropdown-item" href="web-browsing.html#html" onclick="closeNav()">HTML</a>
+      </div>
+    </div>
+    <div class="dropdown">
+      <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown"
+        aria-haspopup="true" aria-expanded="false">
+        CyberSecurity
+      </button>
+      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+        <a class="dropdown-item" href="cybersecurity.html#virus" onclick="closeNav()">Computer Virus</a>
+        <a class="dropdown-item" href="cybersecurity.html#phish" onclick="closeNav()">Phishing Scam</a>
+        <a class="dropdown-item" href="cybersecurity.html#ddos" onclick="closeNav()">DDos</a>
+        <a class="dropdown-item" href="cybersecurity.html#antivirus" onclick="closeNav()">Antivirus Software</a>
+        <a class="dropdown-item" href="cybersecurity.html#firewall" onclick="closeNav()">Firewall</a>
+      </div>
+    </div>
+  </div>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+      <a class="navbar-brand" href="home.html">Edward Liu</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="internet.html">The Internet</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="packets.html">Packets and Routing</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="web-browsing.html">Web Browsing</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="cybersecurity.html">CyberSecurity</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="history.html">History of the Internet</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="heading-internet">
+    <h1>The Internet</h1>
+  </div>
+  <div class="main-info container">
+    <div class="subpoints" style="background-color:rgb(255, 255, 255)">
+      <div class="row">
+        <div class="col-lg-6">
+          <h1 id="internet">What is the Internet?</h1>
+          <p>You may not know it, but the internet is not just games and websites. The internet is global,
+            stretching across the world to deliver you, the consumer information that you may need. It is a variety
+            of interconnected networks, which uses standardized communication protocols, such as TCP/IP.</p>
+        </div>
+        <div class="col-lg-6">
+          <img class="image" src="internet_images/global.jpeg" alt="around-the-world">
+        </div>
+      </div>
+    </div>
+    <div class="subpoints" style="background-color:rgb(245, 245, 245)">
+      <div class="row">
+        <div class="col-lg-6">
+          <img class="image" src="internet_images/bits.jpeg" alt="bits">
+        </div>
+        <div class="col-lg-6">
+          <h3 id="storage">What are the measurements of storage in a computer?</h1>
+
+            <p>Bits, bytes, Kilobytes and Megabytes are all measurements of storage on a computer. Nower days, there
+              are even gigabytes, but what are these in the first place?</p>
+            <p>Bits are values that can hold a value of 0 or 1. Now, with many of these bits, computers can become
+              more and more complex, as our storage systems grow more and more advanced. These values can be combined
+              to create some of your favourite programs like Minecraft or Chrome.</p>
+        </div>
+      </div>
+    </div>
+    <div class="subpoints" style="background-color:rgb(235, 235, 235)">
+      <div class="row">
+        <div class="col-lg-6">
+          <h4 id="Binary">What is binary and how do you convert a number into binary?</h4>
+          <p>Binary is a base-2 system, meaning that it has two possible outcomes. It was created by Gottfried
+            Leibnizz, and is only made up out of 2 numbers. It is the fundamental of human technology.</p>
+          <p>The way that you convert a number into binary is to constantly divide the number by two, and keep a
+            notice on the remainder. Stop once the quotient is zero, and reverse the digits.</p>
+        </div>
+        <div class="col-lg-6">
+          <img class="image" src="internet_images/binary.jpeg" alt="binary">
+        </div>
+      </div>
+      <div>
+        <input placeholder="Try it here!" type="number" id="binary" required>
+        <button type="button" class="btn btn-primary" id="binaryButton">Primary</button>
+        <h1 id="binaryText"></h1>
+      </div>
+    </div>
+    <div class="subpoints" style="background-color:rgb(225, 225, 225)">
+      <div class="row">
+        <div class="col-lg-6">
+          <img class="image" src="internet_images/Decimal.jpeg" alt="decimal">
+        </div>
+        <div class="col-lg-6">
+          <h1 id="decimal">What is decimal? (Other than maths)</h1>
+          <p>Decimal describes the base 10 number system. The decimal number system consists of digits 0 - 9. It is
+            mainly used on computer applications and each digit has a position, worth 10 times more than the previous
+            digit.</p>
+        </div>
+      </div>
+    </div>
+    <div class="subpoints" style="background-color:rgb(215, 215, 215)">
+      <div class="row">
+        <div class="col-lg-6">
+          <h1 id="ethernet">Ethernet, Fibre Optic Cable, Wireless</h1>
+          <p>All of these relate to how we connect computers on a network. Wireless connections are a fairly new
+            thing, whereas in the 1990s, fibre optic and ethernet cords were the most widespread way to connect to a
+            network.</p>
+        </div>
+        <div class="col-lg-6">
+          <img class="image" src="internet_images/ethernet.jpeg" alt="ethernet">
+        </div>
+      </div>
+    </div>
+    <div class="subpoints" style="background-color:rgb(205, 205, 205)">
+      <div class="row">
+        <div class="col-lg-6">
+          <img class="image" src="internet_images/bandwidth.jpeg" alt="bandwidth">
+        </div>
+        <div class="col-lg-6">
+          <h1 id="bandwidth">Bandwidth</h1>
+          <p>The maximum data transfer of a network or Internet connection. Bandwidth measures how much data can be
+            sent over a connection in an amount of time.</p>
+        </div>
+      </div>
+    </div>
+    <div class="subpoints" style="background-color:rgb(195, 195, 195)">
+      <div class="row">
+        <div class="col-lg-6">
+          <h1 id="digital-analogue">Digital and Analogue</h1>
+          <p>Digital are signals of data expressed as series of 0s and 1s. It is typically represented by values
+            of
+            a physical quantity such as voltage or magnetic polarization.</p>
+          Analog is any continuous signal where the time varying feature of the signal is a representation of some
+          other time-based variable.
+        </div>
+        <div class="col-lg-6">
+          <img class="image" src="internet_images/digital.jpeg" alt="digital">
+        </div>
+      </div>
+      <div>
+        <input placeholder="Try it here!" type="range" min="0" max="100" id="analogue" required>
+        <button type="button" class="btn btn-primary" id="analogueButton">Primary</button>
+        <h1 id="analogueText"></h1>
+      </div>
+    </div>
+    <div class="subpoints" style="background-color:rgb(185, 185, 185)">
+      <div class="row">
+        <div class="col-lg-6">
+          <img class="image" src="internet_images/IP.png" alt="IP">
+        </div>
+        <div class="col-lg-6">
+          <h1 id="ip">What is IP?</h1>
+          <p>IP is internet protocol, the set of rules governing forms of data that are sent on the internet. IP
+            is
+            identifiers that allows information to pass and sent between devices. It can also conatin location
+            information as well.</p>
+          <p>IP addresses are a numerical label that is assigned to each device connected to a computer network
+            that
+            uses the Internet for communication.</p>
+        </div>
+      </div>
+    </div>
+    <div class="subpoints" style="background-color:rgb(175, 175, 175)">
+      <div class="row">
+        <div class="col-lg-6">
+          <h1 id="DNS">What is DNS?</h1>
+          <p>DNS is the Domain Name System, and is used for transferring alphanumeric domain names into numeric IP
+            addresses.</p>
+        </div>
+        <div class="col-lg-6">
+          <img class="image" src="internet_images/DNS.png" alt="DNS">
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+<script src="script.js"></script>
+<script src="internet.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+
+</html>

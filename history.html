@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Introduction to the Internet</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+  <link rel="stylesheet" href="timeline.css">
+  <link rel="icon" href="cybersecurity_images/firewall.jpeg">
+</head>
+
+<body>
+  <div id="mySidenav" class="sidenav">
+    <div class="dropdown">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown"
+        aria-haspopup="true" aria-expanded="false">
+        The Internet
+      </button>
+      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+        <a class="dropdown-item" href="internet.html#internet" onclick="closeNav()">Internet</a>
+        <a class="dropdown-item" href="internet.html#storage" onclick="closeNav()">Storage Systems</a>
+        <a class="dropdown-item" href="internet.html#Binary" onclick="closeNav()">Binary</a>
+        <a class="dropdown-item" href="internet.html#decimal" onclick="closeNav()">Decimal</a>
+        <a class="dropdown-item" href="internet.html#ethernet" onclick="closeNav()">Ethernet</a>
+        <a class="dropdown-item" href="internet.html#bandwidth" onclick="closeNav()">Bandwidth</a>
+        <a class="dropdown-item" href="internet.html#digital-analogue" onclick="closeNav()">Digital & Analogue</a>
+        <a class="dropdown-item" href="internet.html#ip" onclick="closeNav()">IP</a>
+        <a class="dropdown-item" href="internet.html#DNS" onclick="closeNav()">DNS</a>
+      </div>
+    </div>
+    <div class="dropdown">
+      <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown"
+        aria-expanded="false">
+        Packets & Routing
+      </button>
+      <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+        <li><a class="dropdown-item" href="packets.html#protocol" onclick="closeNav()">Protocols</a></li>
+        <li><a class="dropdown-item" href="packets.html#packet" onclick="closeNav()">Packets</a></li>
+        <li><a class="dropdown-item" href="packets.html#router" onclick="closeNav()">Routers</a></li>
+        <li><a class="dropdown-item" href="packets.html#fault-tolerance" onclick="closeNav()">Fault tolerance</a></li>
+        <li><a class="dropdown-item" href="packets.html#tcp" onclick="closeNav()">TCP</a></li>
+        <li><a class="dropdown-item" href="packets.html#scaleable" onclick="closeNav()">Scaleable</a></li>
+      </ul>
+    </div>
+    <div class="dropdown">
+      <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown"
+        aria-haspopup="true" aria-expanded="false">
+        Web Browsing
+      </button>
+      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+        <a class="dropdown-item" href="web-browsing.html#browser" onclick="closeNav()">Browser</a>
+        <a class="dropdown-item" href="web-browsing.html#server" onclick="closeNav()">Web Server</a>
+        <a class="dropdown-item" href="web-browsing.html#http" onclick="closeNav()">HTTP</a>
+        <a class="dropdown-item" href="web-browsing.html#https" onclick="closeNav()">HTTPS</a>
+        <a class="dropdown-item" href="web-browsing.html#requests" onclick="closeNav()">GET and POST</a>
+        <a class="dropdown-item" href="web-browsing.html#html" onclick="closeNav()">HTML</a>
+      </div>
+    </div>
+    <div class="dropdown">
+      <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown"
+        aria-haspopup="true" aria-expanded="false">
+        CyberSecurity
+      </button>
+      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+        <a class="dropdown-item" href="cybersecurity.html#virus" onclick="closeNav()">Computer Virus</a>
+        <a class="dropdown-item" href="cybersecurity.html#phish" onclick="closeNav()">Phishing Scam</a>
+        <a class="dropdown-item" href="cybersecurity.html#ddos" onclick="closeNav()">DDos</a>
+        <a class="dropdown-item" href="cybersecurity.html#antivirus" onclick="closeNav()">Antivirus Software</a>
+        <a class="dropdown-item" href="cybersecurity.html#firewall" onclick="closeNav()">Firewall</a>
+      </div>
+    </div>
+  </div>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+          <a class="navbar-brand" href="home.html">Edward Liu</a>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="internet.html">The Internet</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="packets.html">Packets and Routing</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="web-browsing.html">Web Browsing</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="cybersecurity.html">CyberSecurity</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="history.html">History of the Internet</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="heading-history">
+    <h1>History of the Internet</h1>
+  </div>
+  <div class="time">
+    <div class="cont left">
+      <div class="text col-sm">
+        <h2>1961 (Kleinrock's queing theory)</h2>
+        <p>Kleinrock's theory showed the world the effectiveness of packet switching instead of direct wire technology,
+          the technology of old phones, and inspired our internet packet switching method today.</p>
+        <img src="timeline_images/kleinrokc.jpeg">
+      </div>
+    </div>
+    <div class="cont right">
+      <div class="text">
+        <h2>1964 (Baran - packet switching on military nets)</h2>
+        <p>Baran investigated the use of packet switching for voiceover military networks. It was then when packet
+          switching started to be implemented onto networks.</p><img style="width: 200px;"
+          src="timeline_images/Baran.jpeg">
+      </div>
+    </div>
+    <div class="cont left">
+      <div class="text">
+        <h2>1967 (ARPAnet - Advanced Research Projects Agency)</h2>
+        <p>The Advanced Research Projects Agency (ARPA) lead the creation of the first packet switched computer network.
+        </p>
+        <img class="smaller-width" src="timeline_images/ARPAnet.png">
+      </div>
+    </div>
+    <div class="cont right">
+      <div class="text">
+        <h2>1969 (ARPAnet node operational)</h2>
+        <p>Surprisingly, this was installed on labour day, under Kleinrock's supervision to make sure nothing went
+          wrong. The first packet switch was installed, while three additional were installed without Klienrock's help.
+          The very first use of packet switching was to perform a remote login, which crashed the system.</p>
+        <img class="smaller-width" src="timeline_images/nodes.jpeg">
+      </div>
+    </div>
+    <div class="cont left">
+      <div class="text">
+        <h2>1972 (Public demo)</h2>
+        <p>The public demo displayed the NCP, a first host to host protocol, which also lead to the very first online
+          communication feature, email.</p>
+      </div>
+    </div>
+    <div class="cont right">
+      <div class="text">
+        <h2>1970 (ALOHAnet satellite in Hawaii)</h2>
+        <p>ALOHAnet was another company that provided packet switching networks, and they deployed a satellite to link
+          universities on the hawaiian islands.</p>
+        <img class="smaller-width" src="timeline_images/satellite.jpeg">
+      </div>
+    </div>
+    <div class="cont left">
+      <div class="text">
+        <h2>1974 (Cerf and Kahn architecture)</h2>
+        <p>Interconnecting networks were done by Vinton Cerf and Robert Kahn, and they used the term of "internetting"
+          to desribe their work.</p>
+        <img src="timeline_images/internetting.jpeg" class="smaller-width">
+      </div>
+    </div>
+    <div class="cont right">
+      <div class="text">
+        <h2>1976 (Ethernet at Xerox PARC)</h2>
+        <p>The Ethernet protocol was developed by Metcalfe and Boggs, for wire-based shared networks. This type of
+          protocol was to ensure the connection between different electrical devices.</p>
+        <img src="timeline_images/ethernet.jpeg" class="smaller-width">
+      </div>
+    </div>
+    <div class="cont left">
+      <div class="text">
+        <h2>1983 (Deployment of TCP/IP)</h2>
+        <p>Interconnecting networks were done by Vinton Cerf and Robert Kahn, and they used the term of "internetting"
+          to desribe their work.</p>
+        <img src="timeline_images/tcpip.png" class="smaller-width">
+      </div>
+    </div>
+    <div class="cont right">
+      <div class="text">
+        <h2>1984 (Mintel System Starts in France)</h2>
+        <p>The Mintel system was developed by the French government, which started the connection of internet at home.
+          Mintel also offered many services to allow more usage in their system.
+        </p>
+        <img src="timeline_images/internetathome.jpeg" class="smaller-width">
+      </div>
+    </div>
+    <div class="cont left">
+      <div class="text">
+        <h2>1988 (Email protocol defined)</h2>
+        <p>The email protocol was properly defined, so it could be made for public usage. This was the start of online
+          communication.
+        </p>
+        <img src="timeline_images/email.png" class="smaller-width">
+      </div>
+    </div>
+    <div class="cont right">
+      <div class="text">
+        <h2>1988 (TCP congestion control)</h2>
+        <p>The TCP congestion control was to make services faster, and ensure a good quality experience with the system.
+        </p>
+      </div>
+    </div>
+    <div class="cont left">
+      <div class="text">
+        <h2>1988 (New national networks)</h2>
+        <p>New networks have started internationally, so people from different countries can also have internet access
+          as well.
+        </p>
+        <img src="timeline_images/international.jpeg" class="smaller-width">
+      </div>
+    </div>
+    <div class="cont right">
+      <div class="text">
+        <h2>1990 (ARPAnet decommissioned)</h2>
+        <p>Since other technologies were more further ahead than ARPAnet, it was decommissioned from its task, and newer
+          networks took over.</p>
+        <img src="timeline_images/decommissioned.jpeg" class="smaller-width">
+      </div>
+    </div>
+    <div class="cont left">
+      <div class="text">
+        <h2>1990 (HTML, HTTP)</h2>
+        <p>Tim Berners-Lee created the web at Cern, developping initial versions of HTML, HTTP, web servers, and
+          browsers. This was the start of the web, allowing people to share information to everyone on the internet.</p>
+        <img src="timeline_images/html.jpeg" class="smaller-width">
+      </div>
+    </div>
+    <div class="cont right">
+      <div class="text">
+        <h2>1995 (Commercialisation of the web)</h2>
+        <p>The web started to have tremendous growth, with many companies creating their own applications, rivalling the
+          previous application and other competition</p>
+        <img src="timeline_images/commercialisation.jpeg" class="smaller-width">
+      </div>
+    </div>
+    <div class="cont left">
+      <div class="text">
+        <h2>1997 (Wireless technology)</h2>
+        <p>Wireless technology was impossible before newer technologies came in, revolutionising the internet, and
+          reducing the need for ethernet cables.</p>
+        <img src="timeline_images/wifi.jpeg" class="smaller-width">
+      </div>
+    </div>
+    <div class="cont right">
+      <div class="text">
+        <h2>1990's - 2000's (More usage from community)</h2>
+        <p>The internet gained more different apps, such as instant messaging and P2P file sharing, allowing people to
+          share pictures and documents online. It also established network security to protect the 100 million users
+          from hackers.</p>
+        <img src="timeline_images/messaging.png" class="smaller-width">
+      </div>
+    </div>
+    <div class="cont left">
+      <div class="text">
+        <h2>2007 (emergence of online social networks)</h2>
+        <p>Social media started appearing, starting with Facebook, where you could share information easily, and talk to
+          people easier online.</p>
+        <img src="timeline_images/social-networks.jpeg" class="smaller-width">
+      </div>
+    </div>
+    <div class="cont right">
+      <div class="text">
+        <h2>2008 (Companies create their own networks)</h2>
+        <p>This can bypass all of the internet traffic, and allow for a fast usage of the internet, similar to what you
+          have right now.</p>
+        <img src="timeline_images/networks.jpeg" class="smaller-width">
+      </div>
+    </div>
+  </div>
+  <div class="heading">
+    <h1>Thank you to our sources!</h1>
+    <p>Kurose Ross, 2017, Computer Networking: A Top-down Approach, Pearson</p>
+    <p>Computer Hope, Binary, Last modified: 12/04/21, retrieved from <a
+        href="https://www.computerhope.com/jargon/b/binary.htm#:~:text=Binary%20is%20a%20base%2D2,processor%20instructions%20used%20every%20day.">https://www.computerhope.com/jargon/b/binary.htm#:~:text=Binary%20is%20a%20base%2D2,processor%20instructions%20used%20every%20day.</a>
+    </p>
+    <p>Unknown, What are bits, bytes, and other units of measure for digital information? , Last modified: 18/01/18,
+      retrieved from <a
+        href="https://kb.iu.edu/d/ackw#:~:text=A%20bit%20is%20a%20binary,of%20off%20or%20on%2C%20respectively.">https://kb.iu.edu/d/ackw#:~:text=A%20bit%20is%20a%20binary,of%20off%20or%20on%2C%20respectively.</a>
+    </p>
+    <p>Tech Target Contributer, decimal , Last modified: 09/2005,
+      retrieved from <a
+        href="https://whatis.techtarget.com/definition/decimal">https://whatis.techtarget.com/definition/decimal</a>
+    </p>
+  </div>
+</body>
+<script src="script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"
+  integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js"
+  integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
+
+</html>

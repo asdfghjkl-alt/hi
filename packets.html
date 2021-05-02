@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Introduction to the Internet</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+  <link rel="icon" href="cybersecurity_images/firewall.jpeg">
+</head>
+
+<body>
+  <div id="mySidenav" class="sidenav">
+    <div class="dropdown">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown"
+        aria-haspopup="true" aria-expanded="false">
+        The Internet
+      </button>
+      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+        <a class="dropdown-item" href="internet.html#internet" onclick="closeNav()">Internet</a>
+        <a class="dropdown-item" href="internet.html#storage" onclick="closeNav()">Storage Systems</a>
+        <a class="dropdown-item" href="internet.html#Binary" onclick="closeNav()">Binary</a>
+        <a class="dropdown-item" href="internet.html#decimal" onclick="closeNav()">Decimal</a>
+        <a class="dropdown-item" href="internet.html#ethernet" onclick="closeNav()">Ethernet</a>
+        <a class="dropdown-item" href="internet.html#bandwidth" onclick="closeNav()">Bandwidth</a>
+        <a class="dropdown-item" href="internet.html#digital-analogue" onclick="closeNav()">Digital & Analogue</a>
+        <a class="dropdown-item" href="internet.html#ip" onclick="closeNav()">IP</a>
+        <a class="dropdown-item" href="internet.html#DNS" onclick="closeNav()">DNS</a>
+      </div>
+    </div>
+    <div class="dropdown">
+      <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown"
+        aria-expanded="false">
+        Packets & Routing
+      </button>
+      <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+        <li><a class="dropdown-item" href="packets.html#protocol" onclick="closeNav()">Protocols</a></li>
+        <li><a class="dropdown-item" href="packets.html#packet" onclick="closeNav()">Packets</a></li>
+        <li><a class="dropdown-item" href="packets.html#router" onclick="closeNav()">Routers</a></li>
+        <li><a class="dropdown-item" href="packets.html#fault-tolerance" onclick="closeNav()">Fault tolerance</a></li>
+        <li><a class="dropdown-item" href="packets.html#tcp" onclick="closeNav()">TCP</a></li>
+        <li><a class="dropdown-item" href="packets.html#scaleable" onclick="closeNav()">Scaleable</a></li>
+      </ul>
+    </div>
+    <div class="dropdown">
+      <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown"
+        aria-haspopup="true" aria-expanded="false">
+        Web Browsing
+      </button>
+      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+        <a class="dropdown-item" href="web-browsing.html#browser" onclick="closeNav()">Browser</a>
+        <a class="dropdown-item" href="web-browsing.html#server" onclick="closeNav()">Web Server</a>
+        <a class="dropdown-item" href="web-browsing.html#http" onclick="closeNav()">HTTP</a>
+        <a class="dropdown-item" href="web-browsing.html#https" onclick="closeNav()">HTTPS</a>
+        <a class="dropdown-item" href="web-browsing.html#requests" onclick="closeNav()">GET and POST</a>
+        <a class="dropdown-item" href="web-browsing.html#html" onclick="closeNav()">HTML</a>
+      </div>
+    </div>
+    <div class="dropdown">
+      <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown"
+        aria-haspopup="true" aria-expanded="false">
+        CyberSecurity
+      </button>
+      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+        <a class="dropdown-item" href="cybersecurity.html#virus" onclick="closeNav()">Computer Virus</a>
+        <a class="dropdown-item" href="cybersecurity.html#phish" onclick="closeNav()">Phishing Scam</a>
+        <a class="dropdown-item" href="cybersecurity.html#ddos" onclick="closeNav()">DDos</a>
+        <a class="dropdown-item" href="cybersecurity.html#antivirus" onclick="closeNav()">Antivirus Software</a>
+        <a class="dropdown-item" href="cybersecurity.html#firewall" onclick="closeNav()">Firewall</a>
+      </div>
+    </div>
+  </div>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+      <a class="navbar-brand" href="home.html">Edward Liu</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="internet.html">The Internet</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="packets.html">Packets and Routing</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="web-browsing.html">Web Browsing</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="cybersecurity.html">CyberSecurity</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="history.html">History of the Internet</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="heading-packet">
+    <h1>Packets and Routing</h1>
+  </div>
+  <div class="main-info container">
+    <div class="subpoints" style="background-color:rgb(255, 255, 255)">
+      <div class="row">
+        <div class="col-lg-6">
+          <h1 id="protocol">What are protocols?</h1>
+          <p>A protocol is a system of rules that allows electronic devices to communicate with each other. These
+            rules judge what type of data is transmitted, and how data transfers are confirmed. </p>
+        </div>
+        <div class="col-lg-6">
+          <img class="image" src="packet_images/protocol.jpeg" alt="protocol">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="main-info container" style="background-color:rgb(245, 245, 245)">
+    <div class="subpoints">
+      <div class="row">
+        <div class="col-lg-6">
+          <img class="image" src="packet_images/packet.jpeg" alt="packets">
+        </div>
+        <div class="col-lg-6">
+          <h1 id="packet">What is a packet?</h1>
+          <p>Packets are units of data that is routed between a destination on the internet or other networks.
+            Packets are often very small, being around 1.5KBs.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="main-info container" style="background-color:rgb(235, 235, 235)">
+    <div class="subpoints">
+      <div class="row">
+        <div class="col-lg-6">
+          <h1 id="router">What is a router?</h1>
+          <p>Routers are devices that forward data packets between computer networks. Routers perform the traffic
+            directing functions on the Internet. </p>
+        </div>
+        <div class="col-lg-6">
+          <img class="image" src="packet_images/router.jpeg" alt="router">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="main-info container" style="background-color:rgb(225, 225, 225)">
+    <div class="subpoints">
+      <div class="row">
+        <div class="col-lg-6">
+          <img class="image" src="packet_images/fault-tolerance.png" alt="fault">
+        </div>
+        <div class="col-lg-6">
+          <h1 id="fault-tolerance">How does fault tolerance work?</h1>
+          <p>Fault tolerant is the ability to continue an opperation of a process without interuption by any
+            means. If your computer is not fault tolerant, small processes will probably break a component very
+            easily</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="main-info container" style="background-color:rgb(215, 215, 215)">
+    <div class="subpoints">
+      <div class="row">
+        <div class="col-lg-6">
+          <h1 id="tcp">TCP</h1>
+          <p>TCP is the Transmission control protocol, which ensures the reliable transmission of packets. This
+            makes sure that information isn't corrupted or deleted. </p>
+        </div>
+        <div class="col-lg-6">
+          <img class="image" src="packet_images/TCP.jpeg" alt="TCP">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="main-info container" style="background-color:rgb(205, 205, 205)">
+    <div class="subpoints">
+      <div class="row">
+        <div class="col-lg-6">
+          <img class="image" src="packet_images/scaleability.jpeg" alt="scaleable">
+        </div>
+        <div class="col-lg-6">
+          <h1 id="scaleable">What is scalability?</h1>
+          <p>Scaleability is the ability of a computer application to continue to function well when it changes in
+            size to meet the user's expectation.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+<script src="script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+
+</html>
